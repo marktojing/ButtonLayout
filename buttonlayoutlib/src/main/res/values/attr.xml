@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="buttonLayoutRippleRoundedCorners" format="dimension" localization="suggested" />
+    <attr name="buttonLayoutRippleRoundedCornersLeftTop" format="dimension" localization="suggested" />
+    <attr name="buttonLayoutRippleRoundedCornersRightTop" format="dimension" localization="suggested" />
+    <attr name="buttonLayoutRippleRoundedCornersLeftBottom" format="dimension" localization="suggested" />
+    <attr name="buttonLayoutRippleRoundedCornersRightBottom" format="dimension" localization="suggested" />
+    <attr name="buttonLayoutEnableRipple" format="boolean" localization="suggested" />
+    <attr name="buttonLayoutRippleType" format="enum" localization="suggested">
+        <enum name="circle" value="0" />
+        <enum name="rectangle" value="1" />
+    </attr>
+    <attr name="buttonLayoutDefaultColor" format="color" />
+    <declare-styleable name="ButtonLayout">
+        <attr name="buttonLayoutRippleRoundedCorners" />
+        <attr name="buttonLayoutRippleRoundedCornersLeftTop" />
+        <attr name="buttonLayoutRippleRoundedCornersRightTop" />
+        <attr name="buttonLayoutRippleRoundedCornersLeftBottom" />
+        <attr name="buttonLayoutRippleRoundedCornersRightBottom" />
+        <attr name="buttonLayoutEnableRipple" />
+        <attr name="buttonLayoutRippleType" />
+        <attr name="buttonLayoutDefaultColor" />
+    </declare-styleable>
+</resources>

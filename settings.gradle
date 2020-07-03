@@ -1,0 +1,3 @@
+rootProject.name='ButtonLayout'
+include ':app'
+include ':buttonlayoutlib'
